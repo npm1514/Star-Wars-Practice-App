@@ -1,0 +1,17 @@
+body {
+  background-image: url("http://swc.fs2downloads.com/media/screenshots/Misc/Brand-X/Planets%20-%20Coruscant.jpg");
+}
+
+.sw p {
+  font-size: 40px;
+  color:yellow;
+  text-align: justify;
+  text-transform: uppercase;
+  margin: auto;
+}
+
+.sw:hover {
+  transform: translate3d(0,-1500px, 3000px);
+  transition:20s linear;
+  transform: skewX(-50%);
+}

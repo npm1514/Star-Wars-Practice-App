@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body ng-controller="mainCtrl">
+
+  <div class="sw">
+    <div ng-repeat="planet in planets">
+      <p>{{planet.name}} is a planet with a {{planet.terrain}} terrain.</p>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-route.js"></script>
+  <script src="app.js"></script>
+  <script src="mainCtrl.js"></script>
+  <script src="mainService.js"></script>
+</body>
+
+</html>
