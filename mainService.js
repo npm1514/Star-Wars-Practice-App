@@ -1,6 +1,6 @@
 angular.module("app").service("mainService", function($http, $q) {
-  var baseURL = "http://swapi.co/api/";
 
+  var baseURL = "http://swapi.co/api/";
   this.getPlanets = function() {
   //   var deferrer = $q.defer();
   //   $timeout(function() {
@@ -19,4 +19,5 @@ angular.module("app").service("mainService", function($http, $q) {
       return(response.data.results);
     });
   };
+
 });
